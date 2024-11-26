@@ -1,0 +1,31 @@
+#div{
+    border-color: darkblue;
+    border-style: solid;
+    border-width: 10px;
+    height: 400px;
+    width: 450px;
+}
+@media screen and (min-width:0px) and (max-width:320px){
+    #div{
+        /* background-color: palevioletred; */
+        background-image: url(./image.png);
+    }
+}
+@media screen and (min-width:340px) and (max-width:500px){
+    #div{
+        /* background-color:green; */
+        background-image: url(https://cdn.siasat.com/wp-content/uploads/2023/09/image-5-11-1024x576.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (min-width:500px) and (max-width:12000px){
+    #div{
+        /* background-color:blue; */
+        background-image: url(https://www.deccanchronicle.com/h-upload/2024/11/25/1866389-biggbosstelugu8.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
